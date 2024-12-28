@@ -6,7 +6,7 @@ def convert_data(csv):
     pd.read_csv(csv)
 
 def run():
-    convert_data("data/prod_data.csv")
+    convert_data('./data/prod_data.csv')
     prod_revenue.revenue()
 
 if __name__ == "__main__":
